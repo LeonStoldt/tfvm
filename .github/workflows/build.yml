@@ -25,7 +25,7 @@ jobs:
       if: runner.os == 'Linux'
 
     - name: Upload coverage data to codecov.io
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
       with:
         file: ./coverage.txt
       if: runner.os == 'Linux'
